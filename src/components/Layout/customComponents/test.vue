@@ -1,14 +1,16 @@
 <template>
-	<div>
-		<input type="text"/>
+	<div class='test'>
+		{{a}}
 	</div>
 </template>
 
 <script>
 export default {
-	props: ['initStyleObject', 'dataSource'],
+	name: 'testc',
 	data () {
-		return {};
+		return {
+			a: 'hello'
+		}
 	}
 }
 </script>
